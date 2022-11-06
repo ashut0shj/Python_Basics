@@ -1,4 +1,5 @@
 def fibonacci(n):
+    #n=range for fib function, function will return a fibonacci in a list
     l=[]
     i=0
     a=1
@@ -7,4 +8,3 @@ def fibonacci(n):
         a+=l[i-1]
         i+=1
     return l
-print(fibonacci(10))
