@@ -17,4 +17,4 @@ def welcome_pat():
         r=(i*2)+1
         t=((m)//2)-((r*3)//2)
         print(("-"*t)+ r*".|." + ("-"*t))
-welcome_pat()
+welcome_pat()   #calling
